@@ -165,27 +165,27 @@ AI-Plant-Disease-Detection/
 
 ### Sample Leaf Images
 
-![Sample Leaf Images](screenshots/sample-leaf-images.png)
+![Sample Leaf Images](./screenshots/sample-leaf-images.png)
 
 ### Model Evaluation
 
-![Model Evaluation](screenshots/model-evaluation-metrics.png)
+![Model Evaluation](./screenshots/model-evaluation-metrics.png)
 
 ### Training Loss
 
-![Training Loss](Screenshots/training-loss.png)
+![Training Loss](./screenshots/training-loss.png)
 
 ### Test Accuracy
 
-![Test Accuracy](screenshots/test-accuracy.png)
+![Test Accuracy](./screenshots/test-accuracy.png)
 
 ### ROC Curve
 
-![ROC Curve](screenshots/roc-curve.png)
+![ROC Curve](./screenshots/roc-curve.png)
 
 ### Prediction Result
 
-![Prediction Result](screenshots/prediction-result.png)
+![Prediction Result](./screenshots/prediction-result.png)
 
 ## Running the Project
 
