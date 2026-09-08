@@ -1,26 +1,24 @@
 # AI Plant Disease Detection
-````markdown
-
 
 A deep learning project for detecting plant diseases from leaf images using image classification.
 
-The project uses the PlantVillage dataset and compares a custom CNN model with transfer learning using MobileNetV2. A Streamlit application is also included so that users can upload a leaf image and get a prediction.
+The project uses the PlantVillage dataset and compares a custom CNN model with transfer learning using MobileNetV2. A Streamlit application is included to allow users to upload a leaf image and view the model's prediction.
 
 ## What This Project Does
 
-The model takes an image of a plant leaf and predicts the corresponding class.
+The model takes an image of a plant leaf and predicts its corresponding class.
 
 The project includes:
 
-- CNN-based image classification
-- Transfer learning using MobileNetV2
-- Image preprocessing and augmentation
-- Model evaluation using multiple metrics
-- Testing with real-world leaf images
-- Confidence-based prediction
-- Unknown image detection
-- A Streamlit web application
-- Batch image prediction
+* CNN-based image classification
+* Transfer learning using MobileNetV2
+* Image preprocessing and augmentation
+* Model evaluation using multiple metrics
+* Testing with real-world leaf images
+* Confidence score for predictions
+* Unknown image detection
+* Batch image prediction
+* Streamlit web application
 
 ## Dataset
 
@@ -28,15 +26,13 @@ The project uses the **PlantVillage dataset**.
 
 The classes used in this project include:
 
-- Tomato diseases
-- Potato diseases
-- Pepper healthy leaves
+* Tomato diseases
+* Potato diseases
+* Pepper healthy leaves
 
-The dataset contains both healthy and diseased plant leaf images for training and evaluation.
+The dataset contains healthy and diseased leaf images used for training and evaluation.
 
 ## Models
-
-Two approaches were used in the project:
 
 ### Custom CNN
 
@@ -46,7 +42,7 @@ A CNN model was developed as a baseline for the classification task.
 
 MobileNetV2 was used as a pretrained model and fine-tuned for plant disease classification.
 
-Transfer learning provided better performance compared with the baseline CNN and was used as the final model.
+The transfer learning approach achieved better performance than the baseline CNN and was selected as the final model.
 
 ## Project Workflow
 
@@ -68,7 +64,7 @@ Model Evaluation
 Real-World Testing
         ↓
 Streamlit Application
-````
+```
 
 ## Model Performance
 
@@ -87,7 +83,7 @@ The model was evaluated using:
 
 ## Real-World Testing
 
-In addition to the dataset images, the model was tested with different types of images to understand how it behaves outside the training dataset.
+The model was tested with different types of images to understand its performance outside the original dataset.
 
 Testing included:
 
@@ -96,7 +92,7 @@ Testing included:
 * Blurry images
 * Images with complex backgrounds
 
-An unknown-detection threshold was also added to reduce incorrect predictions when an image does not belong to the expected classes.
+An unknown-detection threshold was also added to reduce incorrect predictions for images that do not belong to the expected classes.
 
 ## Streamlit Application
 
@@ -157,35 +153,35 @@ AI-Plant-Disease-Detection/
 
 ### Dataset Exploration
 
-![Dataset Exploration](./screenshots/dataset-exploration.png)
+<img src="./screenshots/dataset-exploration.png" alt="Dataset Exploration" width="800"/>
 
 ### Class Distribution
 
-![Class Distribution](./screenshots/class-distribution.png)
+<img src="./screenshots/class-distribution.png" alt="Class Distribution" width="800"/>
 
 ### Sample Leaf Images
 
-![Sample Leaf Images](./screenshots/sample-leaf-images.png)
+<img src="./screenshots/sample-leaf-images.png" alt="Sample Leaf Images" width="800"/>
 
 ### Model Evaluation
 
-![Model Evaluation](./screenshots/model-evaluation-metrics.png)
+<img src="./screenshots/model-evaluation-metrics.png" alt="Model Evaluation" width="800"/>
 
 ### Training Loss
 
-![Training Loss](./screenshots/training-loss.png)
+<img src="./screenshots/training-loss.png" alt="Training Loss" width="800"/>
 
 ### Test Accuracy
 
-![Test Accuracy](./screenshots/test-accuracy.png)
+<img src="./screenshots/test-accuracy.png" alt="Test Accuracy" width="800"/>
 
 ### ROC Curve
 
-![ROC Curve](./screenshots/roc-curve.png)
+<img src="./screenshots/roc-curve.png" alt="ROC Curve" width="800"/>
 
 ### Prediction Result
 
-![Prediction Result](./screenshots/prediction-result.png)
+<img src="./screenshots/prediction-result.png" alt="Prediction Result" width="800"/>
 
 ## Running the Project
 
@@ -210,9 +206,9 @@ streamlit run streamlit_app/app.py
 
 ## Project Purpose
 
-The main purpose of this project was to understand how computer vision and deep learning can be applied to image classification problems.
+The purpose of this project was to understand how computer vision and deep learning can be applied to image classification.
 
-Through this project, I worked with image preprocessing, CNNs, transfer learning, model evaluation, real-world testing, and deployment through Streamlit.
+Through this project, I worked with image preprocessing, CNNs, transfer learning, model evaluation, real-world testing, and deployment using Streamlit.
 
 ## Author
 
@@ -222,5 +218,3 @@ B.Tech in Computer Science Engineering
 Specialization: Artificial Intelligence & Data Science
 
 GitHub: [https://github.com/Lucky5683](https://github.com/Lucky5683)
-
-```
