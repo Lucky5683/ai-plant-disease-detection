@@ -153,35 +153,35 @@ AI-Plant-Disease-Detection/
 
 ### Dataset Exploration
 
-<img src="./screenshots/dataset-exploration.png" alt="Dataset Exploration" width="800"/>
+![Dataset Exploration](./screenshots/exploringdata_output.png)
 
 ### Class Distribution
 
-<img src="./screenshots/class-distribution.png" alt="Class Distribution" width="800"/>
+![Class Distribution](./screenshots/Distribution.png)
 
 ### Sample Leaf Images
 
-<img src="./screenshots/sample-leaf-images.png" alt="Sample Leaf Images" width="800"/>
+![Sample Leaf Images](./screenshots/sample_leaf_images.png)
 
 ### Model Evaluation
 
-<img src="./screenshots/model-evaluation-metrics.png" alt="Model Evaluation" width="800"/>
+![Model Evaluation](./screenshots/matric%20evaluation.png)
 
 ### Training Loss
 
-<img src="./screenshots/training-loss.png" alt="Training Loss" width="800"/>
+![Training Loss](./screenshots/net%20loss.png)
 
 ### Test Accuracy
 
-<img src="./screenshots/test-accuracy.png" alt="Test Accuracy" width="800"/>
+![Test Accuracy](./screenshots/test%20accuracy.png)
 
 ### ROC Curve
 
-<img src="./screenshots/roc-curve.png" alt="ROC Curve" width="800"/>
+![ROC Curve](./screenshots/ROC%20Curve.png)
 
 ### Prediction Result
 
-<img src="./screenshots/prediction-result.png" alt="Prediction Result" width="800"/>
+![Prediction Result](./screenshots/prediction.png)
 
 ## Running the Project
 
