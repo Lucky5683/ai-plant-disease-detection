@@ -157,11 +157,11 @@ AI-Plant-Disease-Detection/
 
 ### Dataset Exploration
 
-![Dataset Exploration](screenshots/dataset-exploration.png)
+![Dataset Exploration](./screenshots/dataset-exploration.png)
 
 ### Class Distribution
 
-![Class Distribution](screenshots/class-distribution.png)
+![Class Distribution](./screenshots/class-distribution.png)
 
 ### Sample Leaf Images
 
