@@ -1,5 +1,6 @@
-````markdown
 # AI Plant Disease Detection
+````markdown
+
 
 A deep learning project for detecting plant diseases from leaf images using image classification.
 
@@ -172,7 +173,7 @@ AI-Plant-Disease-Detection/
 
 ### Training Loss
 
-![Training Loss](screenshots/training-loss.png)
+![Training Loss](Screenshots/training-loss.png)
 
 ### Test Accuracy
 
