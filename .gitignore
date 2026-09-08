@@ -1,7 +1,24 @@
+# Virtual environment
 venv/
+.venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Trained model files
 models/*.h5
 models/*.pt
+models/*.keras
+
+# Environment files
+.env
+.env.*
+
+# OS files
 .DS_Store
+Thumbs.db
